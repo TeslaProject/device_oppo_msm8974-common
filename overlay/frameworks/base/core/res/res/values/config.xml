@@ -28,8 +28,8 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
+    <bool name="config_intrusiveBatteryLed">true</bool>-->
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -244,8 +244,8 @@
              8 - Assistant (search)
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">7</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareKeys">7</integer>-->
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
@@ -259,13 +259,13 @@
     </string-array>
 
     <!-- The list absolute paths of jar/apk files containing the device specific handlers,
-        delimited by File.pathSeparator, which defaults to ":" on Android -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/Find7Parts/Find7Parts.apk</string>
+        delimited by File.pathSeparator, which defaults to ":" on Android 
+    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/Find7Parts/Find7Parts.apk</string>-->
     <!-- Full qualified name of the class that implements
-        com.android.internal.os.DeviceKeyHandler interface. -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
+        com.android.internal.os.DeviceKeyHandler interface. 
+    <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>-->
 
-    <bool name="config_powerProfilesSupported">true</bool>
+    <!--<bool name="config_powerProfilesSupported">true</bool>-->
 
     <!-- Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
