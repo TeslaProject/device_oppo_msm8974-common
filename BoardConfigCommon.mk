@@ -113,6 +113,7 @@ BOARD_SEPOLICY_UNION += \
     device.te \
     file_contexts \
     file.te \
+    healthd.te \
     init_shell.te \
     mediaserver.te \
     mm-qcamerad.te \
