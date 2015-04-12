@@ -101,9 +101,6 @@ SENSORS_NEED_SETRATE_ON_ENABLE := true
 # charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# power hal
-TARGET_PROVIDES_POWERHAL := true
-
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \

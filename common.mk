@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    power.msm8974 \
     keystore.msm8974
 
 PRODUCT_PACKAGES += \
@@ -154,9 +153,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/gps.conf:system/etc/gps.conf \
     $(COMMON_PATH)/gps/izat.conf:system/etc/izat.conf
-
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/power_profiles.xml:system/etc/power_profiles.xml
 
 # Properties
 
